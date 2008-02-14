@@ -1,0 +1,11 @@
+#summary 中英文文本折行.
+
+= Introduction =
+
+谁负责补充一下需求或者功能介绍。
+
+= Suggest Reading =
+
+* [http://czug.org/blog/panjy/mail-line-wrap 文字折行算法的中文支持]
+
+= Details =
