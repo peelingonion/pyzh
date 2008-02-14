@@ -84,7 +84,7 @@ a==b
 || *type* || *suggest convention* || *example* ||
 || functions, methods || joined_lower || say_hello() ||
 || constants || joined_lower or ALL_CAPS || MONDAY ||
-|| classes || StudlyCaps || CanlendarConverter ||
+|| classes || {{{StudlyCaps}}} || {{{CanlendarConverter}}} ||
 || attributes || underline plus attribute name || {{{_name}}} ||
 
  
