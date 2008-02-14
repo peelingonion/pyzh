@@ -9,16 +9,54 @@
 [http://python.net/~goodger/projects/pycon/2007/idiomatic/presentation.html]
 
 = Details =
- * Importing
+ * Packages
+   {{{
+package/
+    __init__.py
+    module1.py
+    subpackage/
+        __init__.py
+        module2.py
+   }}}
+
+
+ * Module Structure
+  {{{
+"""module docstring"""
+
+# imports
+# constants
+# exception classes
+# interface functions
+# classes
+# internal functions & classes
+
+def main(...):
+    ...
+
+if __name__ == '__main__':
+    status = main()
+    sys.exit(status)
+   }}}
+
+
+ * Import
   # Good
     {{{
 import module
 module.name
+
+import long_module_name as mod
+mod.name
+
+from module import name
+name
     }}}
   # Bad
     {{{
 from module import *
     }}}
+
 
  * White Space
   # *4 spaces* per indentation level.
@@ -41,12 +79,14 @@ a==b
   # No spaces just inside parentheses or just before argument lists.
   # No spaces just inside docstrings.
 
+
  * Naming
-  || *type* || *suggest convention* || *example* ||
-  || functions, methods || joined_lower || say_hello() ||
-  || constants || joined_lower or ALL_CAPS || MONDAY ||
-  || classes || StudlyCaps || CanlendarConverter ||
-  || attributes || underline plus attribute name || {{{_name}}} ||
+|| *type* || *suggest convention* || *example* ||
+|| functions, methods || joined_lower || say_hello() ||
+|| constants || joined_lower or ALL_CAPS || MONDAY ||
+|| classes || StudlyCaps || CanlendarConverter ||
+|| attributes || underline plus attribute name || {{{_name}}} ||
+
  
  * Compound Statements : *One statement Per line.*
   # Good
@@ -62,6 +102,7 @@ do_three()
 if foo == 'blah': do_something()
 do_one(); do_two(); do_three()
     }}}
+
 
   * Docstrings & Comments
    # Docstrings = How to use code
