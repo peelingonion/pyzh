@@ -5,5 +5,7 @@
 谁负责补充一下需求或者功能介绍。
 
 = Suggest Reading =
+{http://nzinfo.spaces.live.com/Blog/cns!67694E0B61E3E8D2!292.entry:CRF的分词器完成}
+{http://nzinfo.spaces.live.com/Blog/cns!67694E0B61E3E8D2!190.entry:Python版的N-gram分词完成}
 
 = Details =
