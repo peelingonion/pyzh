@@ -1,4 +1,4 @@
-# discuss word count
+# discuss word count relatived question.
 
 = Introduction =
 
