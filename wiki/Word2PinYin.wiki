@@ -1,4 +1,4 @@
-#summary 汉字<->拼音
+#summary 汉字 <-> 拼音
 
 = Introduction =
 
