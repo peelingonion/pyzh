@@ -1,0 +1,39 @@
+#summary 代码命名规范.
+
+= Introduction =
+
+
+
+= Suggest Reading =
+
+[http://python.net/~goodger/projects/pycon/2007/idiomatic/presentation.html]
+
+= Details =
+
+ * White Space
+  # *4 spaces* per indentation level.
+  # No hard tabs.
+  # Never mix tabs and spaces.
+  # One blank line between functions.
+  # Two blank lines between classes.
+  # Add a space after "," in dicts, lists, tuples, & argument lists, and after ":" in dicts, but not before.
+  # Put spaces around assignments & comparisons (except in argument lists).
+   * Good
+     {{{
+a = 1
+a == b
+     }}}
+   * Bad
+     {{{
+a=1
+a==b
+     }}}
+  # No spaces just inside parentheses or just before argument lists.
+  # No spaces just inside docstrings.
+
+ * Naming
+  || *type* || *suggest convention* || *example* ||
+  || functions, methods || joined_lower || say_hello() ||
+  || constants || joined_lower or ALL_CAPS || MONDAY ||
+  || classes || StudlyCaps|| CanlendarConverter ||
+  || attributes || underline plus attribute name || {{{_name}}} ||
