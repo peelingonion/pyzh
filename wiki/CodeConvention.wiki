@@ -82,8 +82,8 @@ a==b
 
  * Naming
 || *type* || *suggest convention* || *example* ||
-|| functions, methods || joined_lower || say_hello() ||
-|| constants || joined_lower or ALL_CAPS || MONDAY ||
+|| functions, methods || joined_lower || {{{say_hello()}}} ||
+|| constants || ALL_CAPS || {{{MONDAY}}} ||
 || classes || {{{StudlyCaps}}} || {{{CanlendarConverter}}} ||
 || attributes || underline plus attribute name || {{{_name}}} ||
 
