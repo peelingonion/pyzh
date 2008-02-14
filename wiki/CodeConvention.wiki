@@ -9,6 +9,16 @@
 [http://python.net/~goodger/projects/pycon/2007/idiomatic/presentation.html]
 
 = Details =
+ * Importing
+  # Good
+    {{{
+import module
+module.name
+    }}}
+  # Bad
+    {{{
+from module import *
+    }}}
 
  * White Space
   # *4 spaces* per indentation level.
@@ -35,5 +45,24 @@ a==b
   || *type* || *suggest convention* || *example* ||
   || functions, methods || joined_lower || say_hello() ||
   || constants || joined_lower or ALL_CAPS || MONDAY ||
-  || classes || StudlyCaps|| CanlendarConverter ||
+  || classes || StudlyCaps || CanlendarConverter ||
   || attributes || underline plus attribute name || {{{_name}}} ||
+ 
+ * Compound Statements : *One statement Per line.*
+  # Good
+    {{{
+if foo == 'blah':
+    do_something()
+do_one()
+do_two()
+do_three()
+    }}}
+  # Bad
+    {{{
+if foo == 'blah': do_something()
+do_one(); do_two(); do_three()
+    }}}
+
+  * Docstrings & Comments
+   # Docstrings = How to use code
+   # Comments = Why (rationale) & how code works
