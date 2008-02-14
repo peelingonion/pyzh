@@ -2,8 +2,6 @@
 
 = Introduction =
 
-谁负责补充一下“中英文字数统计”的大概需求或者大概功能。
-
 = Suggest Reading =
 
 = Details =
