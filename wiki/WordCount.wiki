@@ -8,4 +8,6 @@
 
 = Suggest Reading =
 
+ * [http://wiki.woodpecker.org.cn/moin/hairui/UnicodeOfHan 啄木鸟社区的相关资料]
+
 = Details =
