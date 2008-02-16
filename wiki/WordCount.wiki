@@ -2,9 +2,10 @@
 
 = Introduction =
 
- * zishu.py
+ * zishu.py（潘俊勇 提供）
   * 函数caculateWords：用于统计某个字符串里面中文字符与非中文单词各自的数目
- 
+ * utf8_count.py(张沈鹏 提供)
+  * 函数utf8_count: 完全以字符为单位的统计
 
 = Suggest Reading =
 
