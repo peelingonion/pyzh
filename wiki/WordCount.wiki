@@ -1,7 +1,7 @@
 #summary 中英文字数统计.
 
 = Introduction =
-
+== Foundation ==
  * [http://code.google.com/p/pyzh/source/browse/trunk/zishu.py zishu.py]（潘俊勇 提供）
   * 函数caculateWords：用于统计某个字符串里面中文字符与非中文单词各自的数目
  * [http://code.google.com/p/pyzh/source/browse/trunk/utf8_count.py utf8_count.py] (张沈鹏 提供)
