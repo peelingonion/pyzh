@@ -2,7 +2,7 @@
 
 = Introduction =
 
- * 基本：用于统计某个字符串里面中文与非中文字符各自的数目
+ * 函数caculateWords：用于统计某个字符串里面中文字符与非中文单词各自的数目
  
 
 = Suggest Reading =
