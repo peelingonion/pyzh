@@ -2,7 +2,8 @@
 
 = Introduction =
 
- * 函数caculateWords：用于统计某个字符串里面中文字符与非中文单词各自的数目
+ * zishu.py
+  * 函数caculateWords：用于统计某个字符串里面中文字符与非中文单词各自的数目
  
 
 = Suggest Reading =
