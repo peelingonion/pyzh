@@ -95,19 +95,37 @@
 
 输入年份月份,返回本月天数
 
+-名字:getDayCount()
+
+-输入:year,month
+
+-输出:num
+
 输入年份月份,返回本月所有节气信息(dic)
 
+-名字:getAllSolarTermsofThisMonth()
+
+-输入:year,month
+
+-输出:dict: {'节气':(year, month, day)}
+
 输入年份月份,返回本年度所有节日信息(dic)
+
+-名字:getAllFestivalofThisMonth()
+
+-输入:year,month
+
+-输出:dict: {'节日':(year, month, day)}
 
 =4.详细日期信息查询=
 
 输入阳历年月日,返回本日阴历
 
-输入阴历年月日,返回本日阳历
+-名字:getLunarOfThisDay()
 
-输入年月日,返回本日节气
+-输入:(year,month,day)
 
-输入年月日,返回本日节日
+-输出:(year,month,day)
 
 
 reference:
