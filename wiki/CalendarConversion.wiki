@@ -4,6 +4,10 @@
 
 谁负责补充一下需求或者功能介绍。
 
+reference:
+
+http://docs.python.org/lib/module-calendar.html
+
 = Suggest Reading =
 
 = Details =
