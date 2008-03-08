@@ -7,7 +7,7 @@
 = Details =
 输入两个阴历日期,计算两个阴历日期之间的差
 
--名字:Gettwolunarcalendar()
+-名字:Gettwolunarcalendar( )
 
 -输入:data
 
@@ -15,7 +15,7 @@
 
 输入两个阳历日期,计算两个阳历日期之间的差
 
--名字:GetTwoSolarCalendar()
+-名字:GetTwoSolarCalendar( )
 
 -输入:data
 
@@ -28,7 +28,7 @@
 
 输入年份,返回本年度是否闰年信息
 
--名字:IsleapYear()
+-名字:IsleapYear( )
 
 -输入:year
 
@@ -36,7 +36,7 @@
 
 输入年份,返回本年度所有节气信息(dic)
 
--名字:GetAllSolartermofthisyear()
+-名字:GetAllSolartermofthisyear( ) 
 
 -输入:year
 
