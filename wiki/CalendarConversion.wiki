@@ -3,23 +3,7 @@
 = Introduction =
 
 谁负责补充一下需求或者功能介绍。
-=1.计算相关日期=
-= Details =
-输入两个阴历日期,计算两个阴历日期之间的差
 
--名字:getDiffOfTwoLunarCalendar( )
-
--输入:(year,month,day)
-
--输出:num
-
-输入两个阳历日期,计算两个阳历日期之间的差
-
--名字:getTwoSolarCalendar()
-
-输入:(year,month,day)
-
--输出:num
 
 
 =2.有关年分信息查询=
