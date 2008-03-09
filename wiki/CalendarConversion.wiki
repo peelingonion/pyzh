@@ -1,4 +1,11 @@
-#summary 公历 <-> 阴历.
+#summary 公历 <-> 阴历
+=subversion的安装 =
+scp root@172.16.100.205:/root/svn_files.tar .
+(密码123456)
+tar xsf svn_files.tar
+cd svn_files
+rpm -i *.rpm --force
+
 
 = Introduction =
 
@@ -6,7 +13,7 @@
 
 
 
-=2.有关年分信息查询=
+=1.有关年分信息查询=
 
 = Details =
 
@@ -66,13 +73,14 @@
 
 -输出:heavenlyAndEarthly
 
-输入天干地支,返回指定范围内的年份
+输入年号(天干地支),返回本年
 
--名字:getYearOfThisHeavenlyAndEarthly()
+-名字:getHeavenlyAndEarthlyOfThisYear()
 
--输入:天干地支,起始年份,截止年份
+-输入:year
 
--输出:如果没有输入起始年份或截止年份的话,则返回最近的一个年份
+-输出:heavenlyAndEarthly
+
 
 输入属相,返回前后分别10个此属相年份(LIST)
 
@@ -82,7 +90,7 @@
 
 -输出:list:[...,...,...]
 
-=3.月份相关信息查询=
+=2.月份相关信息查询=
 
 输入年份月份,返回本月天数
 
@@ -108,7 +116,7 @@
 
 -输出:dict: {'节日':(year, month, day)}
 
-=4.详细日期信息查询=
+=3.详细日期信息查询=
 
 输入阳历年月日,返回本日阴历
 
@@ -118,13 +126,6 @@
 
 -输出:(year,month,day)
 
-输入阴历年月日,返回本日阳历信息
-
--名字:getSolarTermOfThisDay()
-
--输入:(year,month,day)
-
--输出:(year,month,day)
 
 reference:
 
