@@ -54,7 +54,7 @@
 
 -名字:getDateOfThisSolarTerm()
 
--输入:year,SolarTerm
+-输入:year,solarTerm
 
 -输出:(year,month,day)
 
@@ -62,7 +62,7 @@
 
 -名字:getTheDateOfThisFestival()
 
--输入:year,Festival
+-输入:year,festival
 
 -输出:(year,month,day)
 
