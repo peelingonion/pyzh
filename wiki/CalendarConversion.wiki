@@ -44,7 +44,7 @@
 
 输入年份,返回本年度所有节日信息(dic)
 
--名字:GetAllfestivalOfthisyear()
+-名字:getAllFestivalOfThisYear()
 
 -输入:year
 
@@ -52,9 +52,9 @@
 
 输入年份,节气,返回所在日期
 
--名字:GetTheDateOfThisSolarterm()
+-名字:getDateOfThisSolarTerm()
 
--输入:year,solarterm
+-输入:year,SolarTerm
 
 -输出:(year,month,day)
 
@@ -62,7 +62,7 @@
 
 -名字:getTheDateOfThisFestival()
 
--输入:year,festival
+-输入:year,Festival
 
 -输出:(year,month,day)
 
