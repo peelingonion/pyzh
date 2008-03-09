@@ -1,4 +1,16 @@
-#summary One-sentence summary of this page.
+#summary information about test
+
+1. scp Python-2.5.2.tgz
+
+2. tar xzf Python-2.5.2.tgz
+
+3. cd Python-2.5.2
+
+4. ./configure
+
+5. make
+
+6. make install
 
 = Introduction =
 
