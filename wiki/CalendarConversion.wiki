@@ -72,7 +72,7 @@
 
 -输入:year
 
--输出:AnimalSign
+-输出:animalSign
 
 输入年份,返回本年年号(天干地支)
 
@@ -80,13 +80,13 @@
 
 -输入:year
 
--输出:HeavenlyAndEarthly
+-输出:heavenlyAndEarthly
 
 输入属相,返回前后分别10个此属相年份(LIST)
 
 -名字:getYearsOfThisAnimalSign()
 
--输入:AnimalSign
+-输入:animalSign
 
 -输出:list:[...,...,...]
 
