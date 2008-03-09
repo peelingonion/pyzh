@@ -1,11 +1,16 @@
 #summary 公历 <-> 阴历
 =subversion的安装 =
+
 scp root@172.16.100.205:/root/svn_files.tar .
 (密码123456)
+
 tar xsf svn_files.tar
+
 cd svn_files
+
 rpm -i *.rpm --force
 
+svn checkout https://pyzh.googlecode.com/svn/trunk/ pyzh --username 您的用户名
 
 = Introduction =
 
