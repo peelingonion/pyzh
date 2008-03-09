@@ -136,6 +136,9 @@ reference:
 
 http://docs.python.org/lib/module-calendar.html
 
+http://docs.python.org/lib/module-datetime.html
+
+
 = Suggest Reading =
 
 = Details =
