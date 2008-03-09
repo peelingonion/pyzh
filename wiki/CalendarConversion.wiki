@@ -10,13 +10,13 @@
 
 = Details =
 
-输入年份,返回本年度是否闰年信息
+输入年份,返回本年度阴历的闰月
 
--名字:isLeapYear()
+-名字:getLeapMonthOfThisYear()
 
 -输入:year
 
--输出:(true or false)
+-输出:如果没有,就返回空,否则返回今年的闰月
 
 输入年份,返回本年度所有节气信息(dic)
 
