@@ -7,7 +7,7 @@
 = Details =
 输入两个阴历日期,计算两个阴历日期之间的差
 
--名字:Getdiffoftwolunarcalendar( )
+-名字:getDiffOfTwoLunarCalendar( )
 
 -输入:(year,month,day)
 
@@ -15,7 +15,7 @@
 
 输入两个阳历日期,计算两个阳历日期之间的差
 
--名字:GetTwoSolarCalendar()
+-名字:getTwoSolarCalendar()
 
 输入:(year,month,day)
 
@@ -28,19 +28,19 @@
 
 输入年份,返回本年度是否闰年信息
 
--名字:IsleapYear()
+-名字:isLeapYear()
 
 -输入:year
 
--输出:(true, false)
+-输出:(true or false)
 
 输入年份,返回本年度所有节气信息(dic)
 
--名字:GetAllSolartermofthisyear() 
+-名字:getAllSolarTermOfThisYear() 
 
 -输入:year
 
--输出:AllSolarterm
+-输出:dict: {'节气':(year, month, day)}
 
 输入年份,返回本年度所有节日信息(dic)
 
@@ -48,7 +48,7 @@
 
 -输入:year
 
--输出:dic{'':}
+-输出:dict: {'节日':(year, month, day)}
 
 输入年份,节气,返回所在日期
 
@@ -56,19 +56,19 @@
 
 -输入:year,solarterm
 
--输出:date
+-输出:(year,month,day)
 
 输入年份,节日,返回所在日期
 
--名字:GetTheDateOfThisfestival()
+-名字:getTheDateOfThisFestival()
 
 -输入:year,festival
 
--输出:date
+-输出:(year,month,day)
 
 输入年份,返回本年度属相
 
--名字:GetAnimalSignOfThisyear()
+-名字:getAnimalSignOfThisYear()
 
 -输入:year
 
@@ -76,7 +76,7 @@
 
 输入年份,返回本年年号(天干地支)
 
--名字:GetHeavenlyAndEarthlyOfThisyear()
+-名字:getHeavenlyAndEarthlyOfThisYear()
 
 -输入:year
 
@@ -84,7 +84,7 @@
 
 输入属相,返回前后分别10个此属相年份(LIST)
 
--名字:GetyearsOfAnimalSign()
+-名字:getYearsOfThisAnimalSign()
 
 -输入:AnimalSign
 
