@@ -66,6 +66,14 @@
 
 -输出:heavenlyAndEarthly
 
+输入天干地支,返回指定范围内的年份
+
+-名字:getYearOfThisHeavenlyAndEarthly()
+
+-输入:天干地支,起始年份,截止年份
+
+-输出:如果没有输入起始年份或截止年份的话,则返回最近的一个年份
+
 输入属相,返回前后分别10个此属相年份(LIST)
 
 -名字:getYearsOfThisAnimalSign()
@@ -110,6 +118,13 @@
 
 -输出:(year,month,day)
 
+输入阴历年月日,返回本日阳历信息
+
+-名字:getSolarTermOfThisDay()
+
+-输入:(year,month,day)
+
+-输出:(year,month,day)
 
 reference:
 
